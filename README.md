@@ -92,12 +92,12 @@ Example Program.
 
 #Wrapper functions.
 fun print: text_in [
-  python: "print(str(" + text_in) + "))";   #Python is a built in function for a transpiler,
+  python: "print(str(" + text_in + "))";   #Python is a built in function for a transpiler,
                                             #Not a language feature, just a lazy shortcut.
 ]
 
 fun input: text_in [
-  python: "input(str(" + text_in) + "))";
+  python: "input(str(" + text_in + "))";
 ]
 
 user = input: "Your name? ";
